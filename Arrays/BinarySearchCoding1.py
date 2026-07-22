@@ -20,5 +20,4 @@ def index_value(arr:list,num:int):
             high = mid - 1
     return -1
 
-
-print(index_value([5, 10, 15, 20, 25, 30, 35],25))
+print(index_value([5, 10, 15, 20, 25, 30, 35],5))
