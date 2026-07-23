@@ -37,6 +37,9 @@ max_ele = arr[0]
 
 # print(second_max)
 
+arr = [12, 35, 1, 10, 34, 1]
+count = 0
+max_ele = arr[0]
 
 largets =  float("-inf")
 second_larg = float("-inf")

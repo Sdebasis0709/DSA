@@ -1,7 +1,6 @@
 
 nums = [9,6,4,2,3,5,7,0,1]
 # nums = [3, 0, 1]
-
 # def missingNumber(nums):
 #     array_sum =0
 #     n = len(nums)
@@ -12,12 +11,6 @@ nums = [9,6,4,2,3,5,7,0,1]
 #     return missing_number
 
 # print(missingNumber(nums))
-
-
-
-
-
-
 
 # Xor method
 
