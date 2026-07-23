@@ -18,7 +18,8 @@
 # Output
 
 # [0, 0, 0]
-arr = [0, 1, 0, 3, 12]
+arr = [0, 1, 0, 3, 12,0]
+
 l,r=0,len(arr)-1 
 while l<r:
     if arr[r] == 0:
@@ -29,5 +30,10 @@ while l<r:
         r-=1
     else:
         l+=1
+
+# sorting the left part
+    for i in range(l-1):
+        if arr[i] >arr[i+1]:
+            arr[i],arr[i+1] = arr[i+1],arr[i]
 
 print(arr)
