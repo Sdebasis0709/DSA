@@ -11,7 +11,7 @@ def circular_sum(arr):
         
         current_sum += i
         max_sum = max(max_sum , current_sum)
-        if current_sum < 0:
+        if current_sum < 0: 
             current_sum = 0
         
         current_min_sum +=i
